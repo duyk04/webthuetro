@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height: 56px;
+}
+.content{
+    width: 100%;
+    background-color: white;
+}
+.content > .row li{
+    list-style: none;
+}
+.content > .row ul{
+    line-height: 35px;
+}
+.container1{
+    min-height: 100%;
+    display: block;
+    position: relative;
+    padding-bottom: 272px; /* height of your footer */
+    width: 100%; 
+}
+.container-fluid a{
+    list-style: none;
+    list-style-type: none;
+    color: black;
+}
+.text-10{
+    font-size: 20px;
+}
+.custom-size{
+    width: 10% !important;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
