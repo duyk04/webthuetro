@@ -39,6 +39,14 @@ class Cart_Model
         }
         return $product;
     }
+    public function removeCartItem($user_id, $product_id) {
+        $link = null;
+        taoKetNoi($link);
+    
+        // Xoá sản phẩm từ giỏ hàng dựa trên $product_id và $user_id
+        $query = "DELETE FROM tbl_cart WHERE user_id = $user_id AND product_id = $product_id";
+        chayTruyVanKhongTraVeDL($link, $query);
+    }
     public function addCartItem($product_id, $product_quantity)
     {
         $link = null;

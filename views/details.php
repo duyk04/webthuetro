@@ -12,7 +12,6 @@ Session::init();
 
         <title>web-ban-giay</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../styles/style_khoa.css">
         <link rel="stylesheet" href="../styles/vendors/font-awesome/css/font-awesome.min.css">
     </head>
 
@@ -78,56 +77,35 @@ Session::init();
                 }
                 ?>
             </main>
-            <div id="footer">
-                <footer class="text-center text-lg-start bg-light text-muted d-block">
-                    <div class=" text-center text-md-start mt-5 pt-2">
-                        <div class="row mt-3">
-                            <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">
-                                    Products
-                                </h6>
-                                <p>
-                                    <a href="adidas.php" class="text-reset">Adidas</a>
-                                </p>
-                                <p>
-                                    <a href="nike.php" class="text-reset">Nike</a>
-                                </p>
-                                <p>
-                                    <a href="jordan.php" class="text-reset">Jordan</a>
-                                </p>
-                                <p>
-                                    <a href="yeezy.php" class="text-reset">Yeezy</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">
-                                    Useful links
-                                </h6>
-                                <p>
-                                    <a href="#" class="text-reset">Pricing</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-reset">Settings</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-reset">Orders</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-reset">Help</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p><i class="fa fa-home" aria-hidden="true"></i> Ho Chi Minh, VN</p>
-                                <p>
-                                    <i class="fa fa-envelope me-3"></i>
-                                    shopgiay@gmail.com
-                                </p>
-                                <p><i class="fa fa-phone me-3"></i> + 01 900 100 89</p>
-                                <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
-                            </div>
+            <div id="footer" style="margin-top: 100px;">
+                <footer class="container-fluid" style="background-color: #53d2dc;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h1>DBHD</h1>
+                            <p>Mang trong mình khát khao định hình lại thị trường nhà trọ truyền thống thông qua việc nâng cao tiêu
+                                chuẩn các căn hộ và ứng dụng chuyển đổi số. Từ đó xây dựng hệ sinh thái căn hộ cho thuê trải dài
+                                trên toàn lãnh thổ Việt Nam, mang lại môi trường sống hạnh phúc, tiện nghi cho cộng đồng những người
+                                đi thuê nhà.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h1>Về chúng tôi</h1>
+                            <p><a>Về chúng tôi</a></p>
+                            <p><a>Toà nhà</a></p>
+                            <p><a>Tin tức</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <h1>Chính sách</h1>
+                            <p><a>Hợp tác</a></p>
+                            <p><a>Liên hệ</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <h1>Liên hệ</h1>
+                            <p>Email: <a>nhom9dhh11c12@gmail.com</a></p>
+                            <p>Số điện thoại: <a>0368966992</a></p>
+                            <p>Địa chỉ : 41A Đ. Phú Diễn, Phú Diễn, Bắc Từ Liêm, Hà Nội, Việt Nam</p>
                         </div>
                     </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.655069674606!2d105.76220289999999!3d21.0464832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c3ce577141%3A0xb1a1ac92701777bc!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBUw6BpIG5ndXnDqm4gdsOgIE3DtGkgdHLGsOG7nW5nIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1694837264947!5m2!1svi!2s" width="100%" height="200" style="border:0; padding: 0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </footer>
             </div>
         </div>

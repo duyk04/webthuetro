@@ -4,7 +4,7 @@
             <div class="box round first grid">
                 <h2> Dashbord</h2>
                 <div class="block">               
-                  Welcome admin panel        
+                  <h1 style="text-align: center;">HELLO ADMIN</h1>       
                 </div>
             </div>
         </div>

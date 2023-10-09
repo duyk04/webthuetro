@@ -26,9 +26,9 @@ UserController::init();
         <header>
           <div class="row">
             <div class="col-md-12" style="padding: 0px;">
-              <div class="header bg-secondary">
+              <div class="header">
                 <div class="menu w-100 h-100">
-                  <nav class="navbar navbar-expand-lg navbar-light bg-danger w-100" style="z-index:10; width:100%">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-info w-100" style="z-index:10; width:100%">
                     <a class="navbar-brand" href="index.php" style="font-size: 40px;" >House</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>

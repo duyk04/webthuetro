@@ -22,5 +22,8 @@ class CartController{
     {
         $this->model->purchase($user_id);
     }
+    public function removeProductFromCart($product_id,$user_id) {
+        $this->model->removeCartItem($product_id,$user_id);
+    }
 }
 

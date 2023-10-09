@@ -28,7 +28,7 @@
                  <div class="icon_new" style="position:absolute;color: red; ">
                    <h1>New</h1>
                  </div>
-                 <a href="details.php?product_id=<?= $result['product_id'] ?>"><img src="../img/<?php echo $result['product_thumnail'] ?>" class="card-img-top" alt="..." width="100%"></a>
+                 <a href="details.php?product_id=<?= $result['product_id'] ?>"><img src="../img/<?php echo $result['product_thumnail'] ?>" class="card-img-top" alt="..." width="100%" height="220px"></a>
                  <div class="card-body">
                    <h5 class="card-title"><a href="details.php?product_id=<?= $result['product_id'] ?>"><?php echo $result['product_name'] ?></a></h5>
                    <p class="price"><?php echo $result['product_price'] . " " . "VNĐ" ?></p>
@@ -44,7 +44,7 @@
    </div>
    <div class="row">
      <div class="col-sm-12 ">
-       <h2>Feature Product</h2>
+       <h2>Phòng gợi ý</h2>
        <hr />
        <div class="row">
         
@@ -55,7 +55,7 @@
           ?>
              <div class="col-12 col-sm-6 col-md-3 " style ="padding-bottom: 20px">
                <div class="card"  >
-                 <a href="details.php?product_id=<?= $result['product_id'] ?>"><img src="../img/<?php echo $result['product_thumnail'] ?>" class="card-img-top" alt="..."></a>
+                 <a href="details.php?product_id=<?= $result['product_id'] ?>"><img src="../img/<?php echo $result['product_thumnail'] ?>" class="card-img-top" alt="..." height="220px"></a>
                  <div class="card-body">
                    <a href="details.php?product_id=<?= $result['product_id'] ?>">
                      <h5 class="card-title"><?php echo $result['product_name'] ?></h5>
