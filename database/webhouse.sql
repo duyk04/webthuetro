@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 07, 2023 at 09:48 AM
+-- Generation Time: Oct 11, 2023 at 10:42 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -32,6 +32,17 @@ CREATE TABLE `review` (
   `review_content` longtext DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Dumping data for table `review`
+--
+
+INSERT INTO `review` (`product_id`, `review_content`) VALUES
+(46, 'Điện 2.5k\r\nNước 80k/người\r\nMạng 100k/phòng\r\nVân tay + qli chung 100k/phòng\r\nXe 50k/xe (Tối đa 2xe, Không nhận xe điện)\r\n\r\nCọc 1 tháng, hợp đồng 1 nămĐóng 1 tháng 1\r\nLH 0365538234'),
+(47, '- có giường, không nóng lạnh, không điều hoà \r\n- Điện 2,5k RẺ NHẤT KHU\r\n- Cổng khóa vân tay, an ninh tốt, có chỗ gửi xe\r\n- Không chung chủ, giờ giấc thoải mái'),
+(48, 'Điện 2.5k\r\nNước 80k/người\r\nMạng 100k/phòng\r\nVân tay + qli chung + Thang máy 150k/phòng\r\nXe 50k/xe (tối đa 2xe, Không nhận xe điện)\r\nCọc 1 tháng, hợp đồng 1 nămĐóng 1 tháng 1'),
+(49, 'có ĐIỀU HOÀ, nóng lạnh, giường, tủ, tủ giày, quạt trần\r\n- Điện 2,5k RẺ NHẤT KHU\r\n- Cổng khóa vân tay, an ninh tốt, có chỗ gửi xe\r\n- Không chung chủ, giờ giấc thoải mái'),
+(50, 'Điện 2.5k\r\nNước 80k/người\r\nMạng 100k/phòng\r\nVân tay + qli chung 80k/phòng\r\nXe 50k/xe (chỉ nhận tối đa 2 xe máy)\r\n\r\nCọc 1 tháng, hợp đồng 1 năm\r\nĐóng 1 tháng 1');
+
 -- --------------------------------------------------------
 
 --
@@ -44,6 +55,14 @@ CREATE TABLE `tbl_cart` (
   `product_quantity` int(11) UNSIGNED NOT NULL,
   `product_note` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `tbl_cart`
+--
+
+INSERT INTO `tbl_cart` (`user_id`, `product_id`, `product_quantity`, `product_note`) VALUES
+(2, 50, 1, NULL),
+(2, 48, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -141,7 +160,8 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`user_id`, `user_email`, `user_password`, `user_phone`, `user_name`, `user_address`) VALUES
-(1, 'admin@gmail.com', '1', '0368966992', 'Đàm Quốc Dân', 'Từ Sơn - Bắc Ninh');
+(1, 'admin@gmail.com', '1', '0368966992', 'Đàm Quốc Dân', 'Từ Sơn - Bắc Ninh'),
+(2, 'damquocdan@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '0368966992', 'Đàm Quốc Dân', 'Tiến Bào, Phù Khê, Từ Sơn, Bắc Ninh');
 
 --
 -- Indexes for dumped tables
@@ -226,7 +246,7 @@ ALTER TABLE `tbl_product_category`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `user_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `user_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables

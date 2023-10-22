@@ -32,7 +32,7 @@ if (count($cart_items) <= 0) {
             <td>' . $item->get_product_quantity() . '</td>
             <td class="">' . number_format($product_price, 0, ",", ".") . 'đ</td>
             <td>
-            <a href="remove_item.php?user_id=' . $item->get_user_id() . ';product_id=' . $item->get_product_id() . '">Xoá</a>
+            <a href="remove_item.php?user_id=' . $item->get_user_id() . '&product_id=' . $item->get_product_id() . '">Xoá</a>
             </td>
         </tr>
         ';
